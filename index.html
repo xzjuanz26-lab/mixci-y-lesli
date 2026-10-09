@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App del Clima - API</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <button id="btnTema" class="btn-tema" title="Cambiar tema">Oscuro</button>
+
+    <header>
+        <img src="img/banneer.png.jpeg" alt="Banner de la App del Clima" class="banner">
+        <h1>App del Clima</h1>
+        <p>Consulta el clima en tiempo real de cualquier ciudad</p>
+    </header>
+
+    <main>
+        <form id="formulario" class="buscador">
+            <input type="text" id="inputCiudad" placeholder="Escribe una ciudad..." required>
+            <button type="submit">Consultar</button>
+        </form>
+
+        <button id="btnUbicacion" class="btn-extra">Usar mi ubicacion</button>
+
+        <div id="historial" class="historial"></div>
+
+        <div id="resultado" class="resultado"></div>
+        <div id="pronostico" class="pronostico"></div>
+        <p id="estado"></p>
+    </main>
+
+    <footer>
+        <p>Practica 2 - HTML5, CSS3, JavaScript, JSON, API de Clima, Canva y GitHub Pages</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
